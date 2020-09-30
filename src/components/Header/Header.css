@@ -1,0 +1,35 @@
+.header{
+    height: 80px;
+    background-color: black;
+}
+
+.header__container {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__container__h1{
+    color: white;
+    align-items: center;
+}
+.header__container__navlinks {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__container__navlinks > a {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: .5;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    opacity: 1 !important;
+}
